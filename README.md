@@ -76,3 +76,8 @@ Replace the placeholders in the script:
 | `MIN_SIZE`              | Minimum face size to be considered (pixels) | `50`            |
 | `SMS_COOLDOWN`          | SMS cooldown period (in seconds)            | `60` seconds    |
 | `RECORD_BUFFER_SECONDS` | Time to keep recording after last unknown   | `5` seconds     |
+
+
+For bugs or suggestions, open an issue or email:  
+📧 `praveenpuni80@gmail.com`  
+🌐 GitHub: [@praveenh001](https://github.com/praveenh001)
