@@ -16,10 +16,10 @@ TOLERANCE = 0.4
 # Minimum face size (in pixels)
 MIN_SIZE = 50
 # Twilio credentials (replace with your own or use environment variables)
-TWILIO_ACCOUNT_SID = "AC35e9cc162b92d01e6f9839497c0c463b"
-TWILIO_AUTH_TOKEN = "341e8e85f4687715093bc9a3d9be5ff4"
-TWILIO_PHONE_NUMBER = "+13363449547"
-RECIPIENT_PHONE_NUMBER = "+917483551673"
+TWILIO_ACCOUNT_SID = "your-twilio-sid"
+TWILIO_AUTH_TOKEN = "your-twilio-auth-token"
+TWILIO_PHONE_NUMBER = "your-twilio-number"
+RECIPIENT_PHONE_NUMBER = "recivers-phone-number"
 # SMS cooldown period (in seconds) to avoid spamming
 SMS_COOLDOWN = 60  # Send SMS at most every 60 seconds
 
