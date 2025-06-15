@@ -43,7 +43,7 @@ face-surveillance/
 
 > Note: `face_recognition` requires `dlib` which might need CMake and Visual Studio Build Tools on Windows.
 
-2. 📁 Add Known Faces:
+2. 📁 Add Known Faces: create a known faces foler and insert faces in folder of theor names
 ```text
     known_faces/
     ├── John/
@@ -52,7 +52,9 @@ face-surveillance/
     └── Alice/
         └── alice.jpg
 ```
-4. 🔐 Configure Twilio:
+4. unknown_vedios folder will be automatically created if not exist
+   
+5. 🔐 Configure Twilio:
 Replace the placeholders in the script:
 
     TWILIO_ACCOUNT_SID = "YOUR_ACCOUNT_SID"
@@ -64,6 +66,7 @@ Replace the placeholders in the script:
     RECIPIENT_PHONE_NUMBER = "+91XXXXXXXXXX"
 
 6. ▶️ Run the Program:
+   ```bash
     python surveillance.py
 
 ---
